@@ -1,0 +1,64 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AdmissionForm </title>
+</head>
+<h2>Somaiya  College</h2>
+<Hr>
+<body bgcolor="#ffe6e6">
+
+
+
+<form Action="Response.html">
+  <label>Enter Your Full Name:</label><br>
+  <input type="text"  name="fname" pattern="[A-Za-z]+" Placeholder="Enter Your Full Name" title="Enter character only" Required="Required"><br><br>
+  
+  
+  <label>Gender:</label>
+  <select name="Gender"  required>
+   <option value="">None</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+	</select><br><br>
+	
+	<label>Select Course:</label>
+  <select required>
+   <option value="">None</option>
+    <option>B.Sc(IT)</option>
+	  <option>BCA</option>
+    <option>M.Sc(IT)</option>
+	<option>MCA</option>
+    <option>B.com</option>
+	<option>B.F.M</option>
+    
+  </select><br><br>
+  <label>Date of Birth :</label><br>
+  <input type="date"Required="Required" ><br><br>
+  
+  <label>Email:</label><br>
+  <input type="Email"    name="Email" Placeholder= "abc@gmail.com" Required="Required"><br><br>
+  
+   
+  <label>Phone Number :</label><br>
+  <input type="Tel"  name="Phone"  pattern="[0-9]{10}" Placeholder= "9845658577" title=" Enter 10 digits only " size="10" maxlength="10" Required="Required"><br><br>
+  
+ 
+<label>Enter Your School Name:</label><br>
+  <input type="text"   Required="Required"><br><br>
+  
+ <label>Enter Your 10<sup>th</sup> Percentsge:</label><br>
+  <input type="number"   Required="Required"><br><br>
+  
+   <label>Enter Your Address :</label><br>
+  
+  
+  <textarea   Placeholder="Enter Your Address"  rows="10" cols="20" Required="Required"></textarea><br><br>
+ 
+
+  <button>Submit</button>
+</form>
+
+
+
+</body>
+</html>
